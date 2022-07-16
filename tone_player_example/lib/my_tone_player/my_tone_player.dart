@@ -75,7 +75,7 @@ class _State extends State<MyTonePlayer> {
           onChange: this._contoller.onChangeAmplitude,
         );
         if (this._contoller._valueAmplitude?.valueAsDouble == null) {
-          this._contoller._valueAmplitude?.value = 0.5;
+          this._contoller._valueAmplitude?.value = 1.0;
         }
       });
     }();
@@ -173,7 +173,7 @@ class _State extends State<MyTonePlayer> {
                 inactiveColor: this.widget.color.withOpacity(0.25),
                 thumbColor: this.widget.color,
                 min: 0.0,
-                max: 1.0,
+                max: 2.0,
                 divisions: 10,
                 value: this._contoller.amplitude <= 1.0 ? this._contoller.amplitude : 1.0,
                 onChanged: (final value) {
@@ -196,7 +196,7 @@ class _State extends State<MyTonePlayer> {
                   ),
                   const Spacer(),
                   IconButton(
-                    onPressed: () => this._contoller.amplitude = 0.5,
+                    onPressed: () => this._contoller.amplitude = 1.0,
                     icon: Icon(
                       Icons.settings_backup_restore,
                       color: this.widget.color.withOpacity(0.25),

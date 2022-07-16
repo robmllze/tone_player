@@ -116,7 +116,7 @@ class _State extends State<Tab1> {
                     });
                   },
                   icon: Icon(
-                    this._isPlaying ? Icons.play_arrow : Icons.stop,
+                    this._isPlaying ? Icons.stop : Icons.play_arrow,
                     color: Colors.white,
                   ),
                 ),

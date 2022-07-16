@@ -10,10 +10,13 @@ import 'package:tone_player/tone_player.dart';
 import 'tabs/tab_1.dart';
 import 'tabs/tab_0.dart';
 import 'tabs/tab_2.dart';
+import 'widgets.dart';
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-final tonePlayer = TonePlayer();
+final tonePlayer = TonePlayer()
+  ..prepare(0)
+  ..prepare(1);
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -77,13 +80,18 @@ class _HomeState extends State<Home> {
       initialIndex: 1,
       child: Scaffold(
         appBar: AppBar(
-          title: const Text("SPH Tone Player Demo"),
-          bottom: const TabBar(
-            tabs: [
-              Tab(icon: Icon(Icons.info_outline)),
-              Tab(icon: Icon(Icons.music_note_outlined)),
-              Tab(icon: Icon(Icons.science_outlined)),
+          title: const Text("SPH Tone Player Example"),
+          bottom: TabBar(
+            tabs: const [
+              Tab(icon: MyTextH2("Info")),
+              Tab(icon: MyTextH2("Seperate")),
+              Tab(icon: MyTextH2("Offset")),
             ],
+            onTap: (_) {
+              tonePlayer
+                ..stop(0)
+                ..stop(1);
+            },
           ),
         ),
         body: const TabBarView(

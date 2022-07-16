@@ -6,7 +6,7 @@
 
 import 'package:flutter/material.dart';
 
-import '/main.dart';
+import '/main.dart' as main;
 import '/my_tone_player/my_tone_player.dart';
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -28,7 +28,13 @@ class Tab1 extends StatefulWidget {
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
-class _State extends State<Tab1> {
+class _State extends State<Tab1> with WidgetsBindingObserver {
+  //
+  //
+  //
+
+  bool _isPlaying = false;
+
   //
   //
   //
@@ -36,10 +42,16 @@ class _State extends State<Tab1> {
   late final _contoller0 = MyTonePlayerController(
     id: 0,
     onChangeFrequency: (final value) {
-      tonePlayer.setFrequency(0, double.parse(value ?? "0.0"));
+      if (value != null) {
+        final frequency = double.tryParse(value) ?? 40.0;
+        main.tonePlayer.setFrequency(0, frequency);
+      }
     },
     onChangeAmplitude: (final value) {
-      tonePlayer.setAmplitude(0, double.parse(value ?? "0.0"));
+      if (value != null) {
+        final amplitude = double.tryParse(value) ?? 1.0;
+        main.tonePlayer.setAmplitude(0, amplitude);
+      }
     },
   );
 
@@ -50,10 +62,16 @@ class _State extends State<Tab1> {
   late final _contoller1 = MyTonePlayerController(
     id: 1,
     onChangeFrequency: (final value) {
-      tonePlayer.setFrequency(1, double.parse(value ?? "0.0"));
+      if (value != null) {
+        final frequency = double.tryParse(value) ?? 40.0;
+        main.tonePlayer.setFrequency(0, frequency);
+      }
     },
     onChangeAmplitude: (final value) {
-      tonePlayer.setAmplitude(1, double.parse(value ?? "0.0"));
+      if (value != null) {
+        final amplitude = double.tryParse(value) ?? 1.0;
+        main.tonePlayer.setAmplitude(0, amplitude);
+      }
     },
   );
 
@@ -61,7 +79,11 @@ class _State extends State<Tab1> {
   //
   //
 
-  bool _isPlaying = false;
+  @override
+  Future<bool> didPopRoute() async {
+    main.tonePlayer.close();
+    return false;
+  }
 
   //
   //
@@ -78,11 +100,11 @@ class _State extends State<Tab1> {
               child: Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  MyTonePlayer(
+                  MyTonePlayerSingle(
                     controller: this._contoller0,
                     color: Colors.teal,
                   ),
-                  MyTonePlayer(
+                  MyTonePlayerSingle(
                     controller: this._contoller1,
                     color: Colors.teal,
                   ),
@@ -104,13 +126,14 @@ class _State extends State<Tab1> {
                   iconSize: 40.0,
                   onPressed: () {
                     if (this._isPlaying) {
-                      tonePlayer.stop(0);
-                      tonePlayer.stop(1);
+                      main.tonePlayer
+                        ..stop(0)
+                        ..stop(1);
                     } else {
-                      tonePlayer.play(0);
-                      tonePlayer.play(1);
+                      main.tonePlayer
+                        ..play(0)
+                        ..play(1);
                     }
-
                     this.setState(() {
                       this._isPlaying = !this._isPlaying;
                     });

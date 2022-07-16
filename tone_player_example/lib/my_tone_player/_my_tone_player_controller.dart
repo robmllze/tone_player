@@ -14,9 +14,9 @@ class MyTonePlayerController {
   //
 
   final int id;
-  _MyTonePlayerValue? _valueFrequency, _valueAmplitude;
+  _MyTonePlayerValue? _valueFrequency, _valueAmplitude, _valueOffset;
   void Function(void Function())? _setState;
-  void Function(String?)? onChangeFrequency, onChangeAmplitude;
+  void Function(String?)? onChangeFrequency, onChangeAmplitude, onChangeOffset;
 
   //
   //
@@ -26,9 +26,8 @@ class MyTonePlayerController {
     required this.id,
     this.onChangeFrequency,
     this.onChangeAmplitude,
-  }) {
-    main.tonePlayer.prepare(this.id);
-  }
+    this.onChangeOffset,
+  });
 
   //
   //
@@ -46,6 +45,12 @@ class MyTonePlayerController {
   //
   //
 
+  double get offset => this._valueOffset?.valueAsDouble ?? 0.0;
+
+  //
+  //
+  //
+
   set frequency(double value) => this._setState?.call(() => this._valueFrequency?.value = value);
 
   //
@@ -53,4 +58,10 @@ class MyTonePlayerController {
   //
 
   set amplitude(double value) => this._setState?.call(() => this._valueAmplitude?.value = value);
+
+  //
+  //
+  //
+
+  set offset(double value) => this._setState?.call(() => this._valueOffset?.value = value);
 }

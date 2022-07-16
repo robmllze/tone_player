@@ -30,18 +30,13 @@ class Tab0 extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: const [
             SizedBox(height: 10.0),
-            MyTextH0("Background"),
+            MyTextH0("About"),
             SizedBox(height: 10.0),
             MyBox(
               child: MyTextBody(
-                "This demo was developed for Stress Point Health. "
+                "This app was developed for Stress Point Health. "
                 "It demonstrates the use of JUCE with Flutter on Android and "
-                "iOS. It uses a library developed in Projucer/C++. "
-                "The full source code is available, as well as written steps "
-                "to reproduce this project from scratch. "
-                "The source code is relatively straightforward and any "
-                "competent Flutter and/or C++ developer should be able to "
-                "quickly understand it",
+                "iOS. The full source code is available on GitHub",
               ),
             ),
             SizedBox(height: 10.0),
@@ -58,7 +53,6 @@ class Tab0 extends StatelessWidget {
             MyBox(
               child: MyTextBody(
                 "Developed by Robert Mollentze\n\n"
-                "ABN: 86282501686\n"
                 "Email: robmllze@gmail.com\n"
                 "Phone/WhatsApp: 0479100711",
               ),

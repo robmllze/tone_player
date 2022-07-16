@@ -5,10 +5,7 @@
 //
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
-//#define JNI_OnLoad
-
 #include "../JuceLibraryCode/JuceHeader.h"
-//#include <thread>
 
 using namespace juce;
 using namespace std;

@@ -1,0 +1,2 @@
+ninja: Entering directory `/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/armeabi-v7a'
+ninja: no work to do.

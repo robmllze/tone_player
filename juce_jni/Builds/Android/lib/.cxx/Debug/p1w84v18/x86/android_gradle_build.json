@@ -1,0 +1,68 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt",
+    "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "oboe-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86",
+        "oboe"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "oboe",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/oboe/liboboe.a"
+    },
+    "cpufeatures-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86",
+        "cpufeatures"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "cpufeatures",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/libcpufeatures.a"
+    },
+    "juce_jni-Debug-x86": {
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86",
+        "juce_jni"
+      ],
+      "buildType": "debug",
+      "abi": "x86",
+      "artifactName": "juce_jni",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/p1w84v18/obj/x86/libjuce_jni.so",
+      "runtimeFiles": []
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "mm",
+    "cpp"
+  ]
+}

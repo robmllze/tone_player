@@ -1,0 +1,58 @@
+{
+  "buildFiles": [
+    "/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt",
+    "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "juce_jni-Debug-x86_64": {
+      "artifactName": "juce_jni",
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86_64",
+        "juce_jni"
+      ],
+      "abi": "x86_64",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/p1w84v18/obj/x86_64/libjuce_jni.so",
+      "runtimeFiles": []
+    },
+    "oboe-Debug-x86_64": {
+      "artifactName": "oboe",
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86_64",
+        "oboe"
+      ],
+      "abi": "x86_64",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86_64/oboe/liboboe.a",
+      "runtimeFiles": []
+    },
+    "cpufeatures-Debug-x86_64": {
+      "artifactName": "cpufeatures",
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86_64",
+        "cpufeatures"
+      ],
+      "abi": "x86_64",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86_64/libcpufeatures.a",
+      "runtimeFiles": []
+    }
+  }
+}

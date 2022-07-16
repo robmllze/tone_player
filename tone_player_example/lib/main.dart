@@ -16,7 +16,9 @@ import 'widgets.dart';
 
 final tonePlayer = TonePlayer()
   ..prepare(0)
-  ..prepare(1);
+  ..prepare(1)
+  ..prepare(2)
+  ..prepare(3);
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -90,7 +92,9 @@ class _HomeState extends State<Home> {
             onTap: (_) {
               tonePlayer
                 ..stop(0)
-                ..stop(1);
+                ..stop(1)
+                ..stop(2)
+                ..stop(3);
             },
           ),
         ),

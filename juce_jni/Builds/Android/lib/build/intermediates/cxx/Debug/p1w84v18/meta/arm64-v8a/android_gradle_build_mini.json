@@ -1,0 +1,58 @@
+{
+  "buildFiles": [
+    "/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt",
+    "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/arm64-v8a",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/arm64-v8a",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "juce_jni-Debug-arm64-v8a": {
+      "artifactName": "juce_jni",
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/arm64-v8a",
+        "juce_jni"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/p1w84v18/obj/arm64-v8a/libjuce_jni.so",
+      "runtimeFiles": []
+    },
+    "cpufeatures-Debug-arm64-v8a": {
+      "artifactName": "cpufeatures",
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/arm64-v8a",
+        "cpufeatures"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/arm64-v8a/libcpufeatures.a",
+      "runtimeFiles": []
+    },
+    "oboe-Debug-arm64-v8a": {
+      "artifactName": "oboe",
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/arm64-v8a",
+        "oboe"
+      ],
+      "abi": "arm64-v8a",
+      "output": "/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/arm64-v8a/oboe/liboboe.a",
+      "runtimeFiles": []
+    }
+  }
+}

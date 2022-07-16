@@ -1,0 +1,7 @@
+Executable : /Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja
+arguments : 
+-C
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/armeabi-v7a
+juce_jni
+jvmArgs : 
+

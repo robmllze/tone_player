@@ -1,63 +1,63 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:1-13:12
-INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:1-13:12
-INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:1-13:12
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:1-13:12
+INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:1-13:12
+INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:1-13:12
 	package
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:4:11-45
-		INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
-		INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:4:11-45
+		INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
 	android:versionName
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:94-121
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:94-121
 	xmlns:android
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:11-69
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:11-69
 	android:versionCode
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:70-93
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:3:70-93
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:3-105
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:3-105
 	android:maxSdkVersion
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:77-103
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:77-103
 	android:name
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:20-76
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:20-76
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:6:3-77
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:6:3-77
 	android:name
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:6:20-75
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:6:20-75
 uses-permission#android.permission.ACCESS_COARSE_LOCATION
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:7:3-78
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:7:3-78
 	android:name
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:7:20-76
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:7:20-76
 uses-permission#android.permission.ACCESS_FINE_LOCATION
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:8:3-76
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:8:3-76
 	android:name
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:8:20-74
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:8:20-74
 uses-permission#android.permission.BLUETOOTH_ADMIN
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:9:3-71
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:9:3-71
 	android:name
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:9:20-69
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:9:20-69
 uses-permission#android.permission.BLUETOOTH
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:10:3-65
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:10:3-65
 	android:name
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:10:20-63
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:10:20-63
 uses-permission#android.permission.CHANGE_WIFI_MULTICAST_STATE
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:11:3-83
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:11:3-83
 	android:name
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:11:20-81
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:11:20-81
 uses-permission#android.permission.INTERNET
-ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:12:3-64
+ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:12:3-64
 	android:name
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:12:20-62
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:12:20-62
 uses-sdk
-INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
-INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
-INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
-INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
-		INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
-		ADDED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
-		INJECTED from /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+		ADDED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+		INJECTED from /Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml

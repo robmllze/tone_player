@@ -18,8 +18,8 @@ using namespace std;
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 AudioDeviceManager manager;
-ToneGeneratorAudioSource tone[3];
-AudioSourcePlayer player[3];
+ToneGeneratorAudioSource tone[16];
+AudioSourcePlayer player[16];
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 

@@ -46,22 +46,22 @@ class _State extends State<Tab2> with WidgetsBindingObserver {
     onChangeFrequency: (final value) {
       if (value != null) {
         this._frequency = double.tryParse(value) ?? 40.0;
-        main.tonePlayer.setFrequency(0, this._frequency);
-        main.tonePlayer.setFrequency(1, this._frequency + this._offset);
+        main.tonePlayer.setFrequency(2, this._frequency);
+        main.tonePlayer.setFrequency(3, this._frequency + this._offset);
       }
     },
     onChangeAmplitude: (final value) {
       if (value != null) {
         final amplitude = double.tryParse(value) ?? 1.0;
-        main.tonePlayer.setAmplitude(0, amplitude);
-        main.tonePlayer.setAmplitude(1, amplitude);
+        main.tonePlayer.setAmplitude(2, amplitude);
+        main.tonePlayer.setAmplitude(3, amplitude);
       }
     },
     onChangeOffset: (final value) {
       if (value != null) {
         this._offset = double.tryParse(value) ?? 0.0;
-        main.tonePlayer.setFrequency(0, this._frequency);
-        main.tonePlayer.setFrequency(1, this._frequency + this._offset);
+        main.tonePlayer.setFrequency(2, this._frequency);
+        main.tonePlayer.setFrequency(3, this._frequency + this._offset);
       }
     },
   );
@@ -114,12 +114,12 @@ class _State extends State<Tab2> with WidgetsBindingObserver {
                   onPressed: () {
                     if (this._isPlaying) {
                       main.tonePlayer
-                        ..stop(0)
-                        ..stop(1);
+                        ..stop(2)
+                        ..stop(3);
                     } else {
                       main.tonePlayer
-                        ..play(0)
-                        ..play(1);
+                        ..play(2)
+                        ..play(3);
                     }
                     this.setState(() {
                       this._isPlaying = !this._isPlaying;

@@ -1,0 +1,15 @@
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/CMakeFiles/install/local.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/CMakeFiles/list_install_components.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/CMakeFiles/rebuild_cache.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/CMakeFiles/edit_cache.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/CMakeFiles/juce_jni.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/CMakeFiles/install/strip.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/CMakeFiles/install.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/CMakeFiles/cpufeatures.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/oboe/CMakeFiles/install/local.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/oboe/CMakeFiles/install/strip.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/oboe/CMakeFiles/install.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/oboe/CMakeFiles/list_install_components.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/oboe/CMakeFiles/rebuild_cache.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/oboe/CMakeFiles/edit_cache.dir
+/Users/robmllze/Desktop/tone_player/juce_jni/Builds/Android/lib/.cxx/Debug/p1w84v18/x86/oboe/CMakeFiles/oboe.dir

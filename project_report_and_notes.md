@@ -36,7 +36,7 @@ This should play a test tone for 2 seconds.
 3. Create a new file `tonelib.cpp` in `Source/` and write the code available in `tonelib/Source/tonelib.cpp`
 4. Open the project in Android Studio via Projucer by clicking on the Android Studio icon
 5. Build the project in Android Studio
-6. Create a new folder `tone_player_package/example/android/app/src/main/jniLibs/`
+6. Create a new folder `tone_player/example/android/app/src/main/jniLibs/`
 7. Copy the folders in `tonelib/Builds/Android/lib/build/intermediates/cmake/debug_Debug/obj` and paste them in the new folder.
 
 ...
@@ -48,7 +48,7 @@ This should play a test tone for 2 seconds.
 1. See: https://docs.flutter.dev/development/packages-and-plugins/developing-packages
 2. Open VS Code or a terminal and run the following:
 ```
-flutter create --org com.robmllze --template=plugin --platforms=android,ios,macos tone_player_package
+flutter create --org com.robmllze --template=plugin --platforms=android,ios,macos tone_player
 ```
 3. Delete folders `test/` and `example/test/` as they won't be needed
 

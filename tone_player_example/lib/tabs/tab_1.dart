@@ -1,20 +1,38 @@
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+//
+// Author: Robert Mollentze
+//
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
 import 'package:flutter/material.dart';
-import '../main.dart';
-import '/my_tone_player.dart';
+
+import '/main.dart';
+import '/my_tone_player/my_tone_player.dart';
+
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 class Tab1 extends StatefulWidget {
   //
   //
   //
 
-  Tab1({Key? key}) : super(key: key);
+  const Tab1({Key? key}) : super(key: key);
+
+  //
+  //
+  //
 
   @override
-  State<Tab1> createState() => _Tab1State();
+  _State createState() => _State();
 }
 
-class _Tab1State extends State<Tab1> {
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+class _State extends State<Tab1> {
   //
+  //
+  //
+
   late final _contoller0 = MyTonePlayerController(
     id: 0,
     onChangeFrequency: (final value) {
@@ -24,6 +42,10 @@ class _Tab1State extends State<Tab1> {
       tonePlayer.setAmplitude(0, double.parse(value ?? "0.0"));
     },
   );
+
+  //
+  //
+  //
 
   late final _contoller1 = MyTonePlayerController(
     id: 1,
@@ -36,9 +58,15 @@ class _Tab1State extends State<Tab1> {
   );
 
   //
+  //
+  //
+
   bool _isPlaying = false;
 
   //
+  //
+  //
+
   @override
   Widget build(_) {
     return Column(

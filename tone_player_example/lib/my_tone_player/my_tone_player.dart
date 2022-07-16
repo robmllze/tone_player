@@ -1,14 +1,17 @@
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 //
-// MY TONE PLAYER
+// Author: Robert Mollentze
 //
 // ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
-import '/utils.dart';
-import 'main.dart';
+import '/main.dart' as main;
+import '/widgets.dart';
+
+part '_my_tone_player_controller.dart';
+part '_my_tone_player_value.dart';
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
@@ -217,106 +220,4 @@ class _State extends State<MyTonePlayer> {
       ),
     );
   }
-}
-
-// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-class _MyTonePlayerValue {
-  //
-  //
-  //
-
-  final String name;
-  final SharedPreferences sharedPreferences;
-  late final TextEditingController controller;
-  void Function(String?)? onChange;
-
-  //
-  //
-  //
-
-  _MyTonePlayerValue({
-    required this.name,
-    required this.sharedPreferences,
-    required this.onChange,
-  }) {
-    final value_ = sharedPreferences.getString(this.name);
-    this.controller = TextEditingController(text: value_);
-    this.onChange?.call(value_);
-  }
-
-  //
-  //
-  //
-
-  set value(dynamic value) {
-    final valueAsString = value.toString();
-    this.onChange?.call(valueAsString);
-    this.sharedPreferences.setString(this.name, valueAsString);
-    this.controller.text = valueAsString;
-  }
-
-  //
-  //
-  //
-
-  String? get value {
-    final value_ = this.controller.text;
-    return value_.isEmpty ? null : value_;
-  }
-
-  //
-  //
-  //
-
-  double? get valueAsDouble => double.tryParse(this.controller.text);
-}
-
-// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-class MyTonePlayerController {
-  //
-  //
-  //
-
-  final int id;
-  _MyTonePlayerValue? _valueFrequency, _valueAmplitude;
-  void Function(void Function())? _setState;
-  void Function(String?)? onChangeFrequency, onChangeAmplitude;
-
-  //
-  //
-  //
-
-  MyTonePlayerController({
-    required this.id,
-    this.onChangeFrequency,
-    this.onChangeAmplitude,
-  }) {
-    tonePlayer.prepare(this.id);
-  }
-
-  //
-  //
-  //
-
-  double get frequency => this._valueFrequency?.valueAsDouble ?? 0.0;
-
-  //
-  //
-  //
-
-  double get amplitude => this._valueAmplitude?.valueAsDouble ?? 0.0;
-
-  //
-  //
-  //
-
-  set frequency(double value) => this._setState?.call(() => this._valueFrequency?.value = value);
-
-  //
-  //
-  //
-
-  set amplitude(double value) => this._setState?.call(() => this._valueAmplitude?.value = value);
 }

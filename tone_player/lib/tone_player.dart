@@ -1,7 +1,15 @@
-// Source: https://docs.flutter.dev/development/platform-integration/macos/c-interop#step-1-create-a-plugin
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+//
+// Author: Robert Mollentze
+//
+// References:
+// - https://docs.flutter.dev/development/platform-integration/macos/c-interop#step-1-create-a-plugin
+//
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
 import 'dart:io';
 import 'dart:ffi' as ffi;
+
 import 'package:ffi/ffi.dart' as ffi;
 
 // ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
@@ -21,6 +29,7 @@ class TonePlayer {
     this.library = Platform.isAndroid //
         ? ffi.DynamicLibrary.open("libjuce_jni.so")
         : ffi.DynamicLibrary.process();
+    this._init();
   }
 
   //
@@ -33,7 +42,7 @@ class TonePlayer {
   //
   //
 
-  late final init = this.library.lookupFunction //
+  late final _init = this.library.lookupFunction //
       <ffi.Int32 Function(), int Function()>("init");
 
   //
@@ -78,7 +87,3 @@ class TonePlayer {
   late final stop = this.library.lookupFunction //
       <ffi.Void Function(ffi.Int32), void Function(int)>("stop");
 }
-
-// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
-
-typedef PointerUtf8 = ffi.Pointer<ffi.Utf8>;

@@ -1,4 +1,12 @@
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+//
+// Author: Robert Mollentze
+//
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+
 import 'package:flutter/material.dart';
+
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 class MyTextH0 extends Text {
   const MyTextH0(String text, {Key? key})
@@ -12,6 +20,8 @@ class MyTextH0 extends Text {
           ),
         );
 }
+
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 class MyTextH1 extends Text {
   const MyTextH1(String text, {Key? key})
@@ -27,6 +37,8 @@ class MyTextH1 extends Text {
         );
 }
 
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
 class MyTextH2 extends Text {
   const MyTextH2(String text, {Key? key})
       : super(
@@ -41,6 +53,8 @@ class MyTextH2 extends Text {
         );
 }
 
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
 class MyTextBody extends SelectableText {
   const MyTextBody(String text, {Key? key})
       : super(
@@ -52,6 +66,8 @@ class MyTextBody extends SelectableText {
           ),
         );
 }
+
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
 
 class MyBox extends StatelessWidget {
   final Widget? child;

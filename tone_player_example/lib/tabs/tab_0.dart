@@ -1,8 +1,25 @@
-import 'package:flutter/widgets.dart';
-import '/utils.dart';
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
+//
+// Author: Robert Mollentze
+//
+// ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓
 
-class TabInfo extends StatelessWidget {
-  const TabInfo({Key? key}) : super(key: key);
+import 'package:flutter/widgets.dart';
+
+import '/widgets.dart';
+
+// ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+
+class Tab0 extends StatelessWidget {
+  //
+  //
+  //
+
+  const Tab0({Key? key}) : super(key: key);
+
+  //
+  //
+  //
 
   @override
   Widget build(BuildContext context) {

@@ -1,0 +1,68 @@
+{
+  "stringTable": {},
+  "buildFiles": [
+    "/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt",
+    "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt"
+  ],
+  "cleanCommandsComponents": [
+    [
+      "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+      "-C",
+      "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/x86_64",
+      "clean"
+    ]
+  ],
+  "buildTargetsCommandComponents": [
+    "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+    "-C",
+    "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/x86_64",
+    "{LIST_OF_TARGETS_TO_BUILD}"
+  ],
+  "libraries": {
+    "juce_jni-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/x86_64",
+        "juce_jni"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "juce_jni",
+      "output": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/6s4o5t1a/obj/x86_64/libjuce_jni.so",
+      "runtimeFiles": []
+    },
+    "oboe-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/x86_64",
+        "oboe"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "oboe",
+      "output": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/x86_64/oboe/liboboe.a"
+    },
+    "cpufeatures-Debug-x86_64": {
+      "buildCommandComponents": [
+        "/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja",
+        "-C",
+        "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/x86_64",
+        "cpufeatures"
+      ],
+      "buildType": "debug",
+      "abi": "x86_64",
+      "artifactName": "cpufeatures",
+      "output": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/x86_64/libcpufeatures.a"
+    }
+  },
+  "toolchains": {},
+  "cFileExtensions": [
+    "c"
+  ],
+  "cppFileExtensions": [
+    "mm",
+    "cpp"
+  ]
+}

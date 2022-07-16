@@ -1,0 +1,1024 @@
+[
+  {
+    "level_": 0,
+    "message_": "Start JSON generation. Platform version: 16 min SDK version: armeabi-v7a",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1959352371
+  },
+  {
+    "level_": 0,
+    "message_": "rebuilding JSON /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/android_gradle_build.json due to:",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1108804000
+  },
+  {
+    "level_": 0,
+    "message_": "- expected json /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1354961318
+  },
+  {
+    "level_": 0,
+    "message_": "- missing previous command file /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/metadata_generation_command.txt, will remove stale json folder",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 922932036
+  },
+  {
+    "level_": 0,
+    "message_": "- command changed from previous, will remove stale json folder",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1541285275
+  },
+  {
+    "level_": 0,
+    "message_": "removing stale contents from \u0027/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a\u0027",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1314302017
+  },
+  {
+    "level_": 0,
+    "message_": "created folder \u0027/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a\u0027",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1243270091
+  },
+  {
+    "level_": 0,
+    "message_": "executing cmake Executable : /Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/cmake\narguments : \n-H/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib\n-DCMAKE_SYSTEM_NAME\u003dAndroid\n-DCMAKE_EXPORT_COMPILE_COMMANDS\u003dON\n-DCMAKE_SYSTEM_VERSION\u003d16\n-DANDROID_ABI\u003darmeabi-v7a\n-DCMAKE_ANDROID_ARCH_ABI\u003darmeabi-v7a\n-DANDROID_NDK\u003d/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_ANDROID_NDK\u003d/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529\n-DCMAKE_TOOLCHAIN_FILE\u003d/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\n-DCMAKE_MAKE_PROGRAM\u003d/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\n-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\u003d/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/6s4o5t1a/obj/armeabi-v7a\n-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\u003d/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/6s4o5t1a/obj/armeabi-v7a\n-DCMAKE_BUILD_TYPE\u003dDebug\n-B/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a\n-GNinja\n-DANDROID_TOOLCHAIN\u003dclang\n-DANDROID_PLATFORM\u003dandroid-16\n-DANDROID_STL\u003dc++_static\n-DANDROID_CPP_FEATURES\u003dexceptions rtti\n-DANDROID_ARM_MODE\u003darm\n-DANDROID_ARM_NEON\u003dTRUE\n-DCMAKE_CXX_STANDARD\u003d14\n-DCMAKE_CXX_EXTENSIONS\u003dOFF\n-DJUCE_BUILD_CONFIGURATION\u003dDEBUG\n-DCMAKE_CXX_FLAGS_DEBUG\u003d-O0\n-DCMAKE_C_FLAGS_DEBUG\u003d-O0\njvmArgs : \n\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1212203711
+  },
+  {
+    "level_": 0,
+    "message_": "\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -701359271
+  },
+  {
+    "level_": 0,
+    "message_": "[\u003d\u003d \"CMake Server\" \u003d\u003d[\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1878475213
+  },
+  {
+    "level_": 0,
+    "message_": "{\"supportedProtocolVersions\":[{\"isExperimental\":true,\"major\":1,\"minor\":1}],\"type\":\"hello\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1701107474
+  },
+  {
+    "level_": 0,
+    "message_": "]\u003d\u003d \"CMake Server\" \u003d\u003d]\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 810323955
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"handshake\",\n  \"cookie\": \"gradle-cmake-cookie\",\n  \"protocolVersion\": {\n    \"isExperimental\": true,\n    \"major\": 1,\n    \"minor\": 1\n  },\n  \"sourceDirectory\": \"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib\",\n  \"buildDirectory\": \"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a\",\n  \"generator\": \"Ninja\"\n}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 933817197
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"gradle-cmake-cookie\",\"inReplyTo\":\"handshake\",\"type\":\"reply\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1476400012
+  },
+  {
+    "level_": 0,
+    "message_": "{\n  \"type\": \"configure\",\n  \"cacheArguments\": [\n    \"\",\n    \"-DCMAKE_SYSTEM_NAME\\u003dAndroid\",\n    \"-DCMAKE_EXPORT_COMPILE_COMMANDS\\u003dON\",\n    \"-DCMAKE_SYSTEM_VERSION\\u003d16\",\n    \"-DANDROID_ABI\\u003darmeabi-v7a\",\n    \"-DCMAKE_ANDROID_ARCH_ABI\\u003darmeabi-v7a\",\n    \"-DANDROID_NDK\\u003d/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529\",\n    \"-DCMAKE_ANDROID_NDK\\u003d/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529\",\n    \"-DCMAKE_TOOLCHAIN_FILE\\u003d/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\n    \"-DCMAKE_MAKE_PROGRAM\\u003d/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/bin/ninja\",\n    \"-DCMAKE_LIBRARY_OUTPUT_DIRECTORY\\u003d/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/6s4o5t1a/obj/armeabi-v7a\",\n    \"-DCMAKE_RUNTIME_OUTPUT_DIRECTORY\\u003d/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/6s4o5t1a/obj/armeabi-v7a\",\n    \"-DCMAKE_BUILD_TYPE\\u003dDebug\",\n    \"-DANDROID_TOOLCHAIN\\u003dclang\",\n    \"-DANDROID_PLATFORM\\u003dandroid-16\",\n    \"-DANDROID_STL\\u003dc++_static\",\n    \"-DANDROID_CPP_FEATURES\\u003dexceptions rtti\",\n    \"-DANDROID_ARM_MODE\\u003darm\",\n    \"-DANDROID_ARM_NEON\\u003dTRUE\",\n    \"-DCMAKE_CXX_STANDARD\\u003d14\",\n    \"-DCMAKE_CXX_EXTENSIONS\\u003dOFF\",\n    \"-DJUCE_BUILD_CONFIGURATION\\u003dDEBUG\",\n    \"-DCMAKE_CXX_FLAGS_DEBUG\\u003d-O0\",\n    \"-DCMAKE_C_FLAGS_DEBUG\\u003d-O0\"\n  ]\n}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -286345412
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 261814751
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1083291991
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":33,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1650740750
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working C compiler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 177851769
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working C compiler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2029627455
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1009349428
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -473581884
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":65,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 395355303
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1336260069
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compiler ABI info - done",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 99467619
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1753651303
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1972103761
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":96,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1739423247
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":126,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -668609713
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":155,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1719764419
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting C compile features - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -135394784
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting C compile features - done",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 699257880
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1863847807
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1175727369
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":184,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -186828745
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Check for working CXX compiler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2079001561
+  },
+  {
+    "level_": 0,
+    "message_": "Check for working CXX compiler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -857796063
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -108961972
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 36340548
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":211,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1169831662
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compiler ABI info - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1322624923
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compiler ABI info - done",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 258073827
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1089959399
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -570181329
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":237,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2001463130
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":262,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 551240738
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":287,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1496964899
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":311,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1099063911
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Detecting CXX compile features - done\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 366017696
+  },
+  {
+    "level_": 0,
+    "message_": "Detecting CXX compile features - done",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -681099112
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":334,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 74845636
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"The ASM compiler identification is Clang\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 155311167
+  },
+  {
+    "level_": 0,
+    "message_": "The ASM compiler identification is Clang",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1781356935
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Found assembler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1603498215
+  },
+  {
+    "level_": 0,
+    "message_": "Found assembler: /Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 939211823
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":950,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1318932484
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Configuring\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 901735751
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"message\":\"Configuring done\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 674509962
+  },
+  {
+    "level_": 0,
+    "message_": "Configuring done",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1900855982
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"configure\",\"type\":\"reply\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1168534535
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"compute\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -144008292
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":500,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1995866727
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"progressCurrent\":1000,\"progressMaximum\":1000,\"progressMessage\":\"Generating\",\"progressMinimum\":0,\"type\":\"progress\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 784578649
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"message\":\"Generating done\",\"type\":\"message\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1488188380
+  },
+  {
+    "level_": 0,
+    "message_": "Generating done",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 2142308311
+  },
+  {
+    "level_": 0,
+    "message_": "{\"cookie\":\"\",\"inReplyTo\":\"compute\",\"type\":\"reply\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -2088877428
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"cmakeInputs\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -72773251
+  },
+  {
+    "level_": 0,
+    "message_": "{\"buildFiles\":[{\"isCMake\":true,\"isTemporary\":false,\"sources\":[\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineSystem.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystem.cmake.in\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInitialize.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Initialize.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCCompiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-C.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCXXCompiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Determine-CXX.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android/Determine-Compiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeSystemSpecificInformation.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeGenericSystem.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Linux.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/UnixPaths.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCInformation.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/GNU.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/CMakeCommonCompilerMacros.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-C.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCCompiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompilerABI.c\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-C-FeatureTests.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCCompiler.cmake.in\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXInformation.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeLanguageInformation.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-CXX.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCommonLanguageInclude.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCXXCompiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestCompilerCommon.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompilerABI.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeParseImplicitLinkInfo.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompileFeatures.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Internal/FeatureTesting.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-FeatureTests.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-CXX-TestableFeatures.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeCXXCompiler.cmake.in\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineASMCompiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeDetermineCompiler.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeFindBinUtils.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-FindBinUtils.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMCompiler.cmake.in\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeASMInformation.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang-ASM.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Compiler/Clang.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang-ASM.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/Platform/Android-Clang.cmake\",\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10/Modules/CMakeTestASMCompiler.cmake\"]},{\"isCMake\":false,\"isTemporary\":false,\"sources\":[\"CMakeLists.txt\",\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/build/cmake/platforms.cmake\",\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/build/cmake/android.toolchain.cmake\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt\"]},{\"isCMake\":false,\"isTemporary\":true,\"sources\":[\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/3.10.2/CMakeSystem.cmake\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/feature_tests.c\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/3.10.2/CMakeCCompiler.cmake\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/feature_tests.cxx\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/3.10.2/CMakeCXXCompiler.cmake\",\".cxx/Debug/6s4o5t1a/armeabi-v7a/CMakeFiles/3.10.2/CMakeASMCompiler.cmake\"]}],\"cmakeRootDirectory\":\"/Users/robmllze/Library/Android/sdk/cmake/3.10.2.4988404/share/cmake-3.10\",\"cookie\":\"\",\"inReplyTo\":\"cmakeInputs\",\"sourceDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib\",\"type\":\"reply\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1740568738
+  },
+  {
+    "level_": 0,
+    "message_": "{\"type\":\"codemodel\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -373926829
+  },
+  {
+    "level_": 0,
+    "message_": "{\"configurations\":[{\"name\":\"Debug\",\"projects\":[{\"buildDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a\",\"name\":\"Project\",\"sourceDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib\",\"targets\":[{\"artifacts\":[\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/build/intermediates/cxx/Debug/6s4o5t1a/obj/armeabi-v7a/libjuce_jni.so\"],\"buildDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -Wformat -Werror\u003dformat-security  -O0 -fno-limit-debug-info -O0 -fPIC   -fsigned-char\",\"defines\":[\"DEBUG\u003d1\",\"JUCER_ANDROIDSTUDIO_7F0E4A25\u003d1\",\"JUCE_ANDROID\u003d1\",\"JUCE_ANDROID_API_VERSION\u003d16\",\"JUCE_APP_VERSION\u003d1.0.0\",\"JUCE_APP_VERSION_HEX\u003d0x10000\",\"JUCE_DISPLAY_SPLASH_SCREEN\u003d1\",\"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_audio_basics\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_audio_devices\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_core\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_data_structures\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_events\u003d1\",\"JUCE_PROJUCER_VERSION\u003d0x70000\",\"JUCE_STANDALONE_APPLICATION\u003d0\",\"JUCE_STRICT_REFCOUNTEDPOINTER\u003d1\",\"JUCE_USE_DARK_SPLASH_SCREEN\u003d1\",\"OBOE_ENABLE_LOGGING\u003d1\",\"_DEBUG\u003d1\",\"juce_jni_EXPORTS\"],\"includePath\":[{\"path\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/../../../JuceLibraryCode\"},{\"path\":\"/Applications/JUCE/modules\"},{\"path\":\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/sources/android/cpufeatures\"},{\"path\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"/Applications/JUCE/modules/juce_core/zip/zlib/adler32.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/compress.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/crc32.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/deflate.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/infback.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/inffast.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/inflate.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/inftrees.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/trees.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/uncompr.c\",\"/Applications/JUCE/modules/juce_core/zip/zlib/zutil.c\"]},{\"isGenerated\":false,\"sources\":[\"/Applications/JUCE/modules/juce_audio_basics/audio_play_head/juce_AudioPlayHead.h\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.h\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioDataConverters.h\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioProcessLoadMeasurer.h\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioSampleBuffer.h\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_FloatVectorOperations.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMP.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPacket.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPackets.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPConversion.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPConverters.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPDispatcher.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPFactory.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPIterator.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPMidi1ToBytestreamTranslator.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPMidi1ToMidi2DefaultTranslator.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPProtocols.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPReceiver.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPSysEx7.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPUtils.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPView.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiBuffer.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiDataConcatenator.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiFile.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiKeyboardState.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiMessage.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiMessageSequence.h\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiRPN.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEInstrument.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEMessages.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPENote.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiser.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiserBase.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiserVoice.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEUtils.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEValue.h\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEZoneLayout.h\",\"/Applications/JUCE/modules/juce_audio_basics/native/juce_mac_CoreAudioLayouts.h\",\"/Applications/JUCE/modules/juce_audio_basics/native/juce_mac_CoreAudioTimeConversions.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_AudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_BufferingAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_ChannelRemappingAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_IIRFilterAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_MemoryAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_MixerAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_PositionableAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_ResamplingAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_ReverbAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_ToneGeneratorAudioSource.h\",\"/Applications/JUCE/modules/juce_audio_basics/synthesisers/juce_Synthesiser.h\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_ADSR.h\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_Decibels.h\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_GenericInterpolator.h\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_IIRFilter.h\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_Interpolators.h\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_Reverb.h\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_SmoothedValue.h\",\"/Applications/JUCE/modules/juce_audio_basics/juce_audio_basics.h\",\"/Applications/JUCE/modules/juce_audio_devices/audio_io/juce_AudioDeviceManager.h\",\"/Applications/JUCE/modules/juce_audio_devices/audio_io/juce_AudioIODevice.h\",\"/Applications/JUCE/modules/juce_audio_devices/audio_io/juce_AudioIODeviceType.h\",\"/Applications/JUCE/modules/juce_audio_devices/audio_io/juce_SystemAudioVolume.h\",\"/Applications/JUCE/modules/juce_audio_devices/midi_io/ump/juce_UMPBytestreamInputHandler.h\",\"/Applications/JUCE/modules/juce_audio_devices/midi_io/ump/juce_UMPU32InputHandler.h\",\"/Applications/JUCE/modules/juce_audio_devices/midi_io/juce_MidiDevices.h\",\"/Applications/JUCE/modules/juce_audio_devices/midi_io/juce_MidiMessageCollector.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/AudioStream.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/AudioStreamBase.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/AudioStreamBuilder.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/AudioStreamCallback.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/Definitions.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/LatencyTuner.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/Oboe.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/ResultWithValue.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/StabilizedCallback.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/Utilities.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include/oboe/Version.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/aaudio/AAudioExtensions.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/aaudio/AAudioLoader.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/aaudio/AudioStreamAAudio.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/AudioClock.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/AudioSourceCaller.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/DataConversionFlowGraph.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/FilterAudioStream.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/FixedBlockAdapter.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/FixedBlockReader.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/FixedBlockWriter.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/MonotonicCounter.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/OboeDebug.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/QuirksManager.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/SourceFloatCaller.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/SourceI16Caller.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/SourceI24Caller.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/SourceI32Caller.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/Trace.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/fifo/FifoBuffer.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/fifo/FifoController.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/fifo/FifoControllerBase.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/fifo/FifoControllerIndirect.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/HyperbolicCosineWindow.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/IntegerRatio.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/KaiserWindow.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/LinearResampler.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/MultiChannelResampler.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/PolyphaseResampler.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/PolyphaseResamplerMono.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/PolyphaseResamplerStereo.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/SincResampler.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/SincResamplerStereo.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/ChannelCountConverter.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/ClipToRange.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/FlowGraphNode.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/FlowgraphUtilities.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/ManyToMultiConverter.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/MonoToMultiConverter.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/MultiToMonoConverter.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/RampLinear.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SampleRateConverter.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SinkFloat.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SinkI16.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SinkI24.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SinkI32.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SourceFloat.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SourceI16.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SourceI24.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SourceI32.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/AudioInputStreamOpenSLES.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/AudioOutputStreamOpenSLES.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/AudioStreamBuffered.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/AudioStreamOpenSLES.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/EngineOpenSLES.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/OpenSLESUtilities.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/OutputMixerOpenSLES.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/README.md\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_android_HighPerformanceAudioHelpers.h\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_ios_Audio.h\",\"/Applications/JUCE/modules/juce_audio_devices/sources/juce_AudioSourcePlayer.h\",\"/Applications/JUCE/modules/juce_audio_devices/sources/juce_AudioTransportSource.h\",\"/Applications/JUCE/modules/juce_audio_devices/juce_audio_devices.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_AbstractFifo.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_Array.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_ArrayAllocationBase.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_ArrayBase.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_DynamicObject.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_ElementComparator.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_HashMap.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_LinkedListPointer.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_ListenerList.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_NamedValueSet.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_Optional.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_OwnedArray.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_PropertySet.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_ScopedValueSetter.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_SingleThreadedAbstractFifo.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_SortedSet.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_SparseSet.h\",\"/Applications/JUCE/modules/juce_core/containers/juce_Variant.h\",\"/Applications/JUCE/modules/juce_core/files/juce_AndroidDocument.h\",\"/Applications/JUCE/modules/juce_core/files/juce_common_MimeTypes.h\",\"/Applications/JUCE/modules/juce_core/files/juce_DirectoryIterator.h\",\"/Applications/JUCE/modules/juce_core/files/juce_File.h\",\"/Applications/JUCE/modules/juce_core/files/juce_FileFilter.h\",\"/Applications/JUCE/modules/juce_core/files/juce_FileInputStream.h\",\"/Applications/JUCE/modules/juce_core/files/juce_FileOutputStream.h\",\"/Applications/JUCE/modules/juce_core/files/juce_FileSearchPath.h\",\"/Applications/JUCE/modules/juce_core/files/juce_MemoryMappedFile.h\",\"/Applications/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.h\",\"/Applications/JUCE/modules/juce_core/files/juce_TemporaryFile.h\",\"/Applications/JUCE/modules/juce_core/files/juce_WildcardFileFilter.h\",\"/Applications/JUCE/modules/juce_core/javascript/juce_Javascript.h\",\"/Applications/JUCE/modules/juce_core/javascript/juce_JSON.h\",\"/Applications/JUCE/modules/juce_core/logging/juce_FileLogger.h\",\"/Applications/JUCE/modules/juce_core/logging/juce_Logger.h\",\"/Applications/JUCE/modules/juce_core/maths/juce_BigInteger.h\",\"/Applications/JUCE/modules/juce_core/maths/juce_Expression.h\",\"/Applications/JUCE/modules/juce_core/maths/juce_MathsFunctions.h\",\"/Applications/JUCE/modules/juce_core/maths/juce_NormalisableRange.h\",\"/Applications/JUCE/modules/juce_core/maths/juce_Random.h\",\"/Applications/JUCE/modules/juce_core/maths/juce_Range.h\",\"/Applications/JUCE/modules/juce_core/maths/juce_StatisticsAccumulator.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_AllocationHooks.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_Atomic.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_ByteOrder.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_ContainerDeletePolicy.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_HeapBlock.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_HeavyweightLeakedObjectDetector.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_LeakedObjectDetector.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_Memory.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_MemoryBlock.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_OptionalScopedPointer.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_ReferenceCountedObject.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_Reservoir.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_ScopedPointer.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_SharedResourcePointer.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_Singleton.h\",\"/Applications/JUCE/modules/juce_core/memory/juce_WeakReference.h\",\"/Applications/JUCE/modules/juce_core/misc/juce_ConsoleApplication.h\",\"/Applications/JUCE/modules/juce_core/misc/juce_Functional.h\",\"/Applications/JUCE/modules/juce_core/misc/juce_Result.h\",\"/Applications/JUCE/modules/juce_core/misc/juce_RuntimePermissions.h\",\"/Applications/JUCE/modules/juce_core/misc/juce_Uuid.h\",\"/Applications/JUCE/modules/juce_core/misc/juce_WindowsRegistry.h\",\"/Applications/JUCE/modules/juce_core/native/java/README.txt\",\"/Applications/JUCE/modules/juce_core/native/juce_android_JNIHelpers.h\",\"/Applications/JUCE/modules/juce_core/native/juce_BasicNativeHeaders.h\",\"/Applications/JUCE/modules/juce_core/native/juce_intel_SharedCode.h\",\"/Applications/JUCE/modules/juce_core/native/juce_mac_CFHelpers.h\",\"/Applications/JUCE/modules/juce_core/native/juce_mac_ObjCHelpers.h\",\"/Applications/JUCE/modules/juce_core/native/juce_posix_IPAddress.h\",\"/Applications/JUCE/modules/juce_core/native/juce_posix_SharedCode.h\",\"/Applications/JUCE/modules/juce_core/native/juce_win32_ComSmartPtr.h\",\"/Applications/JUCE/modules/juce_core/network/juce_IPAddress.h\",\"/Applications/JUCE/modules/juce_core/network/juce_MACAddress.h\",\"/Applications/JUCE/modules/juce_core/network/juce_NamedPipe.h\",\"/Applications/JUCE/modules/juce_core/network/juce_Socket.h\",\"/Applications/JUCE/modules/juce_core/network/juce_URL.h\",\"/Applications/JUCE/modules/juce_core/network/juce_WebInputStream.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_BufferedInputStream.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_FileInputSource.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_InputSource.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_InputStream.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_MemoryInputStream.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_OutputStream.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_SubregionStream.h\",\"/Applications/JUCE/modules/juce_core/streams/juce_URLInputSource.h\",\"/Applications/JUCE/modules/juce_core/system/juce_CompilerSupport.h\",\"/Applications/JUCE/modules/juce_core/system/juce_CompilerWarnings.h\",\"/Applications/JUCE/modules/juce_core/system/juce_PlatformDefs.h\",\"/Applications/JUCE/modules/juce_core/system/juce_StandardHeader.h\",\"/Applications/JUCE/modules/juce_core/system/juce_SystemStats.h\",\"/Applications/JUCE/modules/juce_core/system/juce_TargetPlatform.h\",\"/Applications/JUCE/modules/juce_core/text/juce_Base64.h\",\"/Applications/JUCE/modules/juce_core/text/juce_CharacterFunctions.h\",\"/Applications/JUCE/modules/juce_core/text/juce_CharPointer_ASCII.h\",\"/Applications/JUCE/modules/juce_core/text/juce_CharPointer_UTF8.h\",\"/Applications/JUCE/modules/juce_core/text/juce_CharPointer_UTF16.h\",\"/Applications/JUCE/modules/juce_core/text/juce_CharPointer_UTF32.h\",\"/Applications/JUCE/modules/juce_core/text/juce_Identifier.h\",\"/Applications/JUCE/modules/juce_core/text/juce_LocalisedStrings.h\",\"/Applications/JUCE/modules/juce_core/text/juce_NewLine.h\",\"/Applications/JUCE/modules/juce_core/text/juce_String.h\",\"/Applications/JUCE/modules/juce_core/text/juce_StringArray.h\",\"/Applications/JUCE/modules/juce_core/text/juce_StringPairArray.h\",\"/Applications/JUCE/modules/juce_core/text/juce_StringPool.h\",\"/Applications/JUCE/modules/juce_core/text/juce_StringRef.h\",\"/Applications/JUCE/modules/juce_core/text/juce_TextDiff.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_ChildProcess.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_CriticalSection.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_DynamicLibrary.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_InterProcessLock.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_Process.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_ReadWriteLock.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_ScopedLock.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_ScopedReadLock.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_ScopedWriteLock.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_SpinLock.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_Thread.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_ThreadLocalValue.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_ThreadPool.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_TimeSliceThread.h\",\"/Applications/JUCE/modules/juce_core/threads/juce_WaitableEvent.h\",\"/Applications/JUCE/modules/juce_core/time/juce_PerformanceCounter.h\",\"/Applications/JUCE/modules/juce_core/time/juce_RelativeTime.h\",\"/Applications/JUCE/modules/juce_core/time/juce_Time.h\",\"/Applications/JUCE/modules/juce_core/unit_tests/juce_UnitTest.h\",\"/Applications/JUCE/modules/juce_core/unit_tests/juce_UnitTestCategories.h\",\"/Applications/JUCE/modules/juce_core/xml/juce_XmlDocument.h\",\"/Applications/JUCE/modules/juce_core/xml/juce_XmlElement.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/crc32.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/deflate.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/inffast.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/inffixed.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/inflate.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/inftrees.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/trees.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/zconf.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/zconf.in.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/zlib.h\",\"/Applications/JUCE/modules/juce_core/zip/zlib/zutil.h\",\"/Applications/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.h\",\"/Applications/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.h\",\"/Applications/JUCE/modules/juce_core/zip/juce_ZipFile.h\",\"/Applications/JUCE/modules/juce_core/juce_core.h\",\"/Applications/JUCE/modules/juce_data_structures/app_properties/juce_ApplicationProperties.h\",\"/Applications/JUCE/modules/juce_data_structures/app_properties/juce_PropertiesFile.h\",\"/Applications/JUCE/modules/juce_data_structures/undomanager/juce_UndoableAction.h\",\"/Applications/JUCE/modules/juce_data_structures/undomanager/juce_UndoManager.h\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_CachedValue.h\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_Value.h\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_ValueTree.h\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_ValueTreePropertyWithDefault.h\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_ValueTreeSynchroniser.h\",\"/Applications/JUCE/modules/juce_data_structures/juce_data_structures.h\",\"/Applications/JUCE/modules/juce_events/broadcasters/juce_ActionBroadcaster.h\",\"/Applications/JUCE/modules/juce_events/broadcasters/juce_ActionListener.h\",\"/Applications/JUCE/modules/juce_events/broadcasters/juce_AsyncUpdater.h\",\"/Applications/JUCE/modules/juce_events/broadcasters/juce_ChangeBroadcaster.h\",\"/Applications/JUCE/modules/juce_events/broadcasters/juce_ChangeListener.h\",\"/Applications/JUCE/modules/juce_events/interprocess/juce_ConnectedChildProcess.h\",\"/Applications/JUCE/modules/juce_events/interprocess/juce_InterprocessConnection.h\",\"/Applications/JUCE/modules/juce_events/interprocess/juce_InterprocessConnectionServer.h\",\"/Applications/JUCE/modules/juce_events/interprocess/juce_NetworkServiceDiscovery.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_ApplicationBase.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_CallbackMessage.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_DeletedAtShutdown.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_Initialisation.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_Message.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_MessageListener.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_MessageManager.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_MountedVolumeListChangeDetector.h\",\"/Applications/JUCE/modules/juce_events/messages/juce_NotificationType.h\",\"/Applications/JUCE/modules/juce_events/native/juce_linux_EventLoop.h\",\"/Applications/JUCE/modules/juce_events/native/juce_linux_EventLoopInternal.h\",\"/Applications/JUCE/modules/juce_events/native/juce_osx_MessageQueue.h\",\"/Applications/JUCE/modules/juce_events/native/juce_ScopedLowPowerModeDisabler.h\",\"/Applications/JUCE/modules/juce_events/native/juce_win32_HiddenMessageWindow.h\",\"/Applications/JUCE/modules/juce_events/native/juce_win32_WinRTWrapper.h\",\"/Applications/JUCE/modules/juce_events/timers/juce_MultiTimer.h\",\"/Applications/JUCE/modules/juce_events/timers/juce_Timer.h\",\"/Applications/JUCE/modules/juce_events/juce_events.h\",\"../../../JuceLibraryCode/JuceHeader.h\"]},{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -Wformat -Werror\u003dformat-security -fexceptions -frtti  -O0 -fno-limit-debug-info -O0 -fPIC   -fsigned-char -std\u003dc++14\",\"defines\":[\"DEBUG\u003d1\",\"JUCER_ANDROIDSTUDIO_7F0E4A25\u003d1\",\"JUCE_ANDROID\u003d1\",\"JUCE_ANDROID_API_VERSION\u003d16\",\"JUCE_APP_VERSION\u003d1.0.0\",\"JUCE_APP_VERSION_HEX\u003d0x10000\",\"JUCE_DISPLAY_SPLASH_SCREEN\u003d1\",\"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_audio_basics\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_audio_devices\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_core\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_data_structures\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_events\u003d1\",\"JUCE_PROJUCER_VERSION\u003d0x70000\",\"JUCE_STANDALONE_APPLICATION\u003d0\",\"JUCE_STRICT_REFCOUNTEDPOINTER\u003d1\",\"JUCE_USE_DARK_SPLASH_SCREEN\u003d1\",\"OBOE_ENABLE_LOGGING\u003d1\",\"_DEBUG\u003d1\",\"juce_jni_EXPORTS\"],\"includePath\":[{\"path\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/../../../JuceLibraryCode\"},{\"path\":\"/Applications/JUCE/modules\"},{\"path\":\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/sources/android/cpufeatures\"},{\"path\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"../../../Source/juce_jni.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioChannelSet.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioDataConverters.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_AudioProcessLoadMeasurer.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/buffers/juce_FloatVectorOperations.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMP_test.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPMidi1ToMidi2DefaultTranslator.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPSysEx7.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPUtils.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/ump/juce_UMPView.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiBuffer.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiFile.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiKeyboardState.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiMessage.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiMessageSequence.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/midi/juce_MidiRPN.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEInstrument.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEMessages.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPENote.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiser.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiserBase.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPESynthesiserVoice.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEUtils.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEValue.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/mpe/juce_MPEZoneLayout.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_BufferingAudioSource.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_ChannelRemappingAudioSource.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_IIRFilterAudioSource.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_MemoryAudioSource.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_MixerAudioSource.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_ResamplingAudioSource.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_ReverbAudioSource.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/sources/juce_ToneGeneratorAudioSource.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/synthesisers/juce_Synthesiser.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_ADSR_test.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_IIRFilter.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_Interpolators.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_LagrangeInterpolator.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_SmoothedValue.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/utilities/juce_WindowedSincInterpolator.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/juce_audio_basics.cpp\",\"/Applications/JUCE/modules/juce_audio_basics/juce_audio_basics.mm\",\"/Applications/JUCE/modules/juce_audio_devices/audio_io/juce_AudioDeviceManager.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/audio_io/juce_AudioIODevice.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/audio_io/juce_AudioIODeviceType.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/audio_io/juce_SampleRateHelpers.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/midi_io/juce_MidiDevices.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/midi_io/juce_MidiMessageCollector.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/aaudio/AAudioLoader.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/aaudio/AudioStreamAAudio.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/AudioSourceCaller.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/AudioStream.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/AudioStreamBuilder.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/DataConversionFlowGraph.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/FilterAudioStream.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/FixedBlockAdapter.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/FixedBlockReader.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/FixedBlockWriter.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/LatencyTuner.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/QuirksManager.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/SourceFloatCaller.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/SourceI16Caller.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/SourceI24Caller.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/SourceI32Caller.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/StabilizedCallback.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/Trace.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/Utilities.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/common/Version.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/fifo/FifoBuffer.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/fifo/FifoController.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/fifo/FifoControllerBase.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/fifo/FifoControllerIndirect.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/IntegerRatio.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/LinearResampler.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/MultiChannelResampler.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/PolyphaseResampler.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/PolyphaseResamplerMono.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/PolyphaseResamplerStereo.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/SincResampler.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/resampler/SincResamplerStereo.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/ChannelCountConverter.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/ClipToRange.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/FlowGraphNode.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/ManyToMultiConverter.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/MonoToMultiConverter.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/MultiToMonoConverter.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/RampLinear.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SampleRateConverter.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SinkFloat.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SinkI16.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SinkI24.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SinkI32.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SourceFloat.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SourceI16.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SourceI24.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/flowgraph/SourceI32.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/AudioInputStreamOpenSLES.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/AudioOutputStreamOpenSLES.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/AudioStreamBuffered.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/AudioStreamOpenSLES.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/EngineOpenSLES.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/OpenSLESUtilities.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src/opensles/OutputMixerOpenSLES.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_android_Audio.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_android_Midi.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_android_Oboe.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_android_OpenSL.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_ios_Audio.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_linux_ALSA.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_linux_Bela.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_linux_JackAudio.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_linux_Midi.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_mac_CoreAudio.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_mac_CoreMidi.mm\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_win32_ASIO.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_win32_DirectSound.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_win32_Midi.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/native/juce_win32_WASAPI.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/sources/juce_AudioSourcePlayer.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/sources/juce_AudioTransportSource.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/juce_audio_devices.cpp\",\"/Applications/JUCE/modules/juce_audio_devices/juce_audio_devices.mm\",\"/Applications/JUCE/modules/juce_core/containers/juce_AbstractFifo.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_ArrayBase.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_DynamicObject.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_HashMap_test.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_ListenerList.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_NamedValueSet.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_Optional_test.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_OwnedArray.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_PropertySet.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_ReferenceCountedArray.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_SparseSet.cpp\",\"/Applications/JUCE/modules/juce_core/containers/juce_Variant.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_common_MimeTypes.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_DirectoryIterator.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_File.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_FileFilter.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_FileInputStream.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_FileOutputStream.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_FileSearchPath.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_RangedDirectoryIterator.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_TemporaryFile.cpp\",\"/Applications/JUCE/modules/juce_core/files/juce_WildcardFileFilter.cpp\",\"/Applications/JUCE/modules/juce_core/javascript/juce_Javascript.cpp\",\"/Applications/JUCE/modules/juce_core/javascript/juce_JSON.cpp\",\"/Applications/JUCE/modules/juce_core/logging/juce_FileLogger.cpp\",\"/Applications/JUCE/modules/juce_core/logging/juce_Logger.cpp\",\"/Applications/JUCE/modules/juce_core/maths/juce_BigInteger.cpp\",\"/Applications/JUCE/modules/juce_core/maths/juce_Expression.cpp\",\"/Applications/JUCE/modules/juce_core/maths/juce_Random.cpp\",\"/Applications/JUCE/modules/juce_core/memory/juce_AllocationHooks.cpp\",\"/Applications/JUCE/modules/juce_core/memory/juce_MemoryBlock.cpp\",\"/Applications/JUCE/modules/juce_core/misc/juce_ConsoleApplication.cpp\",\"/Applications/JUCE/modules/juce_core/misc/juce_Result.cpp\",\"/Applications/JUCE/modules/juce_core/misc/juce_RuntimePermissions.cpp\",\"/Applications/JUCE/modules/juce_core/misc/juce_Uuid.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_android_AndroidDocument.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_android_Files.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_android_JNIHelpers.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_android_Misc.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_android_Network.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_android_RuntimePermissions.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_android_SystemStats.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_android_Threads.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_curl_Network.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_linux_CommonFile.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_linux_Files.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_linux_Network.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_linux_SystemStats.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_linux_Threads.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_mac_Files.mm\",\"/Applications/JUCE/modules/juce_core/native/juce_mac_Network.mm\",\"/Applications/JUCE/modules/juce_core/native/juce_mac_Strings.mm\",\"/Applications/JUCE/modules/juce_core/native/juce_mac_SystemStats.mm\",\"/Applications/JUCE/modules/juce_core/native/juce_mac_Threads.mm\",\"/Applications/JUCE/modules/juce_core/native/juce_posix_NamedPipe.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_wasm_SystemStats.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_win32_Files.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_win32_Network.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_win32_Registry.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_win32_SystemStats.cpp\",\"/Applications/JUCE/modules/juce_core/native/juce_win32_Threads.cpp\",\"/Applications/JUCE/modules/juce_core/network/juce_IPAddress.cpp\",\"/Applications/JUCE/modules/juce_core/network/juce_MACAddress.cpp\",\"/Applications/JUCE/modules/juce_core/network/juce_NamedPipe.cpp\",\"/Applications/JUCE/modules/juce_core/network/juce_Socket.cpp\",\"/Applications/JUCE/modules/juce_core/network/juce_URL.cpp\",\"/Applications/JUCE/modules/juce_core/network/juce_WebInputStream.cpp\",\"/Applications/JUCE/modules/juce_core/streams/juce_BufferedInputStream.cpp\",\"/Applications/JUCE/modules/juce_core/streams/juce_FileInputSource.cpp\",\"/Applications/JUCE/modules/juce_core/streams/juce_InputStream.cpp\",\"/Applications/JUCE/modules/juce_core/streams/juce_MemoryInputStream.cpp\",\"/Applications/JUCE/modules/juce_core/streams/juce_MemoryOutputStream.cpp\",\"/Applications/JUCE/modules/juce_core/streams/juce_OutputStream.cpp\",\"/Applications/JUCE/modules/juce_core/streams/juce_SubregionStream.cpp\",\"/Applications/JUCE/modules/juce_core/streams/juce_URLInputSource.cpp\",\"/Applications/JUCE/modules/juce_core/system/juce_SystemStats.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_Base64.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_CharacterFunctions.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_Identifier.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_LocalisedStrings.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_String.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_StringArray.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_StringPairArray.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_StringPool.cpp\",\"/Applications/JUCE/modules/juce_core/text/juce_TextDiff.cpp\",\"/Applications/JUCE/modules/juce_core/threads/juce_ChildProcess.cpp\",\"/Applications/JUCE/modules/juce_core/threads/juce_HighResolutionTimer.cpp\",\"/Applications/JUCE/modules/juce_core/threads/juce_ReadWriteLock.cpp\",\"/Applications/JUCE/modules/juce_core/threads/juce_Thread.cpp\",\"/Applications/JUCE/modules/juce_core/threads/juce_ThreadPool.cpp\",\"/Applications/JUCE/modules/juce_core/threads/juce_TimeSliceThread.cpp\",\"/Applications/JUCE/modules/juce_core/threads/juce_WaitableEvent.cpp\",\"/Applications/JUCE/modules/juce_core/time/juce_PerformanceCounter.cpp\",\"/Applications/JUCE/modules/juce_core/time/juce_RelativeTime.cpp\",\"/Applications/JUCE/modules/juce_core/time/juce_Time.cpp\",\"/Applications/JUCE/modules/juce_core/unit_tests/juce_UnitTest.cpp\",\"/Applications/JUCE/modules/juce_core/xml/juce_XmlDocument.cpp\",\"/Applications/JUCE/modules/juce_core/xml/juce_XmlElement.cpp\",\"/Applications/JUCE/modules/juce_core/zip/juce_GZIPCompressorOutputStream.cpp\",\"/Applications/JUCE/modules/juce_core/zip/juce_GZIPDecompressorInputStream.cpp\",\"/Applications/JUCE/modules/juce_core/zip/juce_ZipFile.cpp\",\"/Applications/JUCE/modules/juce_core/juce_core.cpp\",\"/Applications/JUCE/modules/juce_core/juce_core.mm\",\"/Applications/JUCE/modules/juce_data_structures/app_properties/juce_ApplicationProperties.cpp\",\"/Applications/JUCE/modules/juce_data_structures/app_properties/juce_PropertiesFile.cpp\",\"/Applications/JUCE/modules/juce_data_structures/undomanager/juce_UndoManager.cpp\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_CachedValue.cpp\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_Value.cpp\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_ValueTree.cpp\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_ValueTreePropertyWithDefault_test.cpp\",\"/Applications/JUCE/modules/juce_data_structures/values/juce_ValueTreeSynchroniser.cpp\",\"/Applications/JUCE/modules/juce_data_structures/juce_data_structures.cpp\",\"/Applications/JUCE/modules/juce_data_structures/juce_data_structures.mm\",\"/Applications/JUCE/modules/juce_events/broadcasters/juce_ActionBroadcaster.cpp\",\"/Applications/JUCE/modules/juce_events/broadcasters/juce_AsyncUpdater.cpp\",\"/Applications/JUCE/modules/juce_events/broadcasters/juce_ChangeBroadcaster.cpp\",\"/Applications/JUCE/modules/juce_events/interprocess/juce_ConnectedChildProcess.cpp\",\"/Applications/JUCE/modules/juce_events/interprocess/juce_InterprocessConnection.cpp\",\"/Applications/JUCE/modules/juce_events/interprocess/juce_InterprocessConnectionServer.cpp\",\"/Applications/JUCE/modules/juce_events/interprocess/juce_NetworkServiceDiscovery.cpp\",\"/Applications/JUCE/modules/juce_events/messages/juce_ApplicationBase.cpp\",\"/Applications/JUCE/modules/juce_events/messages/juce_DeletedAtShutdown.cpp\",\"/Applications/JUCE/modules/juce_events/messages/juce_MessageListener.cpp\",\"/Applications/JUCE/modules/juce_events/messages/juce_MessageManager.cpp\",\"/Applications/JUCE/modules/juce_events/native/juce_android_Messaging.cpp\",\"/Applications/JUCE/modules/juce_events/native/juce_ios_MessageManager.mm\",\"/Applications/JUCE/modules/juce_events/native/juce_linux_Messaging.cpp\",\"/Applications/JUCE/modules/juce_events/native/juce_mac_MessageManager.mm\",\"/Applications/JUCE/modules/juce_events/native/juce_ScopedLowPowerModeDisabler.cpp\",\"/Applications/JUCE/modules/juce_events/native/juce_win32_Messaging.cpp\",\"/Applications/JUCE/modules/juce_events/native/juce_win32_WinRTWrapper.cpp\",\"/Applications/JUCE/modules/juce_events/timers/juce_MultiTimer.cpp\",\"/Applications/JUCE/modules/juce_events/timers/juce_Timer.cpp\",\"/Applications/JUCE/modules/juce_events/juce_events.cpp\",\"/Applications/JUCE/modules/juce_events/juce_events.mm\",\"../../../JuceLibraryCode/include_juce_audio_basics.cpp\",\"../../../JuceLibraryCode/include_juce_audio_devices.cpp\",\"../../../JuceLibraryCode/include_juce_core.cpp\",\"../../../JuceLibraryCode/include_juce_data_structures.cpp\",\"../../../JuceLibraryCode/include_juce_events.cpp\"]}],\"fullName\":\"libjuce_jni.so\",\"linkFlags\":\"-Wl,--exclude-libs,libgcc.a -Wl,--exclude-libs,libgcc_real.a -Wl,--exclude-libs,libatomic.a -static-libstdc++ -Wl,--build-id -Wl,--fatal-warnings -Wl,--exclude-libs,libunwind.a -Wl,--no-undefined -Qunused-arguments\",\"linkLibraries\":\"-llog -landroid -lGLESv2 -lEGL libcpufeatures.a oboe/liboboe.a -llog -lOpenSLES -latomic -lm\",\"linkerLanguage\":\"CXX\",\"name\":\"juce_jni\",\"sourceDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib\",\"sysroot\":\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"SHARED_LIBRARY\"},{\"artifacts\":[\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/libcpufeatures.a\"],\"buildDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -Wformat -Werror\u003dformat-security  -O0 -fno-limit-debug-info -O0 -fPIC   -Wno-sign-conversion -Wno-gnu-statement-expression\",\"defines\":[\"DEBUG\u003d1\",\"JUCER_ANDROIDSTUDIO_7F0E4A25\u003d1\",\"JUCE_ANDROID\u003d1\",\"JUCE_ANDROID_API_VERSION\u003d16\",\"JUCE_APP_VERSION\u003d1.0.0\",\"JUCE_APP_VERSION_HEX\u003d0x10000\",\"JUCE_DISPLAY_SPLASH_SCREEN\u003d1\",\"JUCE_GLOBAL_MODULE_SETTINGS_INCLUDED\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_audio_basics\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_audio_devices\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_core\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_data_structures\u003d1\",\"JUCE_MODULE_AVAILABLE_juce_events\u003d1\",\"JUCE_PROJUCER_VERSION\u003d0x70000\",\"JUCE_STANDALONE_APPLICATION\u003d0\",\"JUCE_STRICT_REFCOUNTEDPOINTER\u003d1\",\"JUCE_USE_DARK_SPLASH_SCREEN\u003d1\",\"_DEBUG\u003d1\"],\"includePath\":[{\"path\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/../../../JuceLibraryCode\"},{\"path\":\"/Applications/JUCE/modules\"},{\"path\":\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/sources/android/cpufeatures\"}],\"isGenerated\":false,\"language\":\"C\",\"sources\":[\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/sources/android/cpufeatures/cpu-features.c\"]}],\"fullName\":\"libcpufeatures.a\",\"linkerLanguage\":\"C\",\"name\":\"cpufeatures\",\"sourceDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib\",\"sysroot\":\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"},{\"artifacts\":[\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/oboe/liboboe.a\"],\"buildDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/oboe\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -Wformat -Werror\u003dformat-security -fexceptions -frtti  -O0 -fno-limit-debug-info -O0 -fPIC   -Ofast -std\u003dc++1z\",\"defines\":[\"OBOE_ENABLE_LOGGING\u003d1\"],\"includePath\":[{\"path\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src\"},{\"path\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/aaudio/AAudioLoader.cpp\",\"src/aaudio/AudioStreamAAudio.cpp\",\"src/common/AudioSourceCaller.cpp\",\"src/common/AudioStream.cpp\",\"src/common/AudioStreamBuilder.cpp\",\"src/common/DataConversionFlowGraph.cpp\",\"src/common/FilterAudioStream.cpp\",\"src/common/FixedBlockAdapter.cpp\",\"src/common/FixedBlockReader.cpp\",\"src/common/FixedBlockWriter.cpp\",\"src/common/LatencyTuner.cpp\",\"src/common/SourceFloatCaller.cpp\",\"src/common/SourceI16Caller.cpp\",\"src/common/SourceI24Caller.cpp\",\"src/common/SourceI32Caller.cpp\",\"src/common/Utilities.cpp\",\"src/common/QuirksManager.cpp\",\"src/fifo/FifoBuffer.cpp\",\"src/fifo/FifoController.cpp\",\"src/fifo/FifoControllerBase.cpp\",\"src/fifo/FifoControllerIndirect.cpp\",\"src/flowgraph/FlowGraphNode.cpp\",\"src/flowgraph/ChannelCountConverter.cpp\",\"src/flowgraph/ClipToRange.cpp\",\"src/flowgraph/ManyToMultiConverter.cpp\",\"src/flowgraph/MonoToMultiConverter.cpp\",\"src/flowgraph/MultiToMonoConverter.cpp\",\"src/flowgraph/RampLinear.cpp\",\"src/flowgraph/SampleRateConverter.cpp\",\"src/flowgraph/SinkFloat.cpp\",\"src/flowgraph/SinkI16.cpp\",\"src/flowgraph/SinkI24.cpp\",\"src/flowgraph/SinkI32.cpp\",\"src/flowgraph/SourceFloat.cpp\",\"src/flowgraph/SourceI16.cpp\",\"src/flowgraph/SourceI24.cpp\",\"src/flowgraph/SourceI32.cpp\",\"src/flowgraph/resampler/IntegerRatio.cpp\",\"src/flowgraph/resampler/LinearResampler.cpp\",\"src/flowgraph/resampler/MultiChannelResampler.cpp\",\"src/flowgraph/resampler/PolyphaseResampler.cpp\",\"src/flowgraph/resampler/PolyphaseResamplerMono.cpp\",\"src/flowgraph/resampler/PolyphaseResamplerStereo.cpp\",\"src/flowgraph/resampler/SincResampler.cpp\",\"src/flowgraph/resampler/SincResamplerStereo.cpp\",\"src/opensles/AudioInputStreamOpenSLES.cpp\",\"src/opensles/AudioOutputStreamOpenSLES.cpp\",\"src/opensles/AudioStreamBuffered.cpp\",\"src/opensles/AudioStreamOpenSLES.cpp\",\"src/opensles/EngineOpenSLES.cpp\",\"src/opensles/OpenSLESUtilities.cpp\",\"src/opensles/OutputMixerOpenSLES.cpp\",\"src/common/StabilizedCallback.cpp\",\"src/common/Trace.cpp\",\"src/common/Version.cpp\"]}],\"fullName\":\"liboboe.a\",\"linkerLanguage\":\"CXX\",\"name\":\"oboe\",\"sourceDirectory\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe\",\"sysroot\":\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"}]},{\"buildDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/oboe\",\"name\":\"oboe\",\"sourceDirectory\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe\",\"targets\":[{\"artifacts\":[\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/oboe/liboboe.a\"],\"buildDirectory\":\"/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/oboe\",\"fileGroups\":[{\"compileFlags\":\"-g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE\u003d2 -march\u003darmv7-a -Wformat -Werror\u003dformat-security -fexceptions -frtti  -O0 -fno-limit-debug-info -O0 -fPIC   -Ofast -std\u003dc++1z\",\"defines\":[\"OBOE_ENABLE_LOGGING\u003d1\"],\"includePath\":[{\"path\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/src\"},{\"path\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe/include\"}],\"isGenerated\":false,\"language\":\"CXX\",\"sources\":[\"src/aaudio/AAudioLoader.cpp\",\"src/aaudio/AudioStreamAAudio.cpp\",\"src/common/AudioSourceCaller.cpp\",\"src/common/AudioStream.cpp\",\"src/common/AudioStreamBuilder.cpp\",\"src/common/DataConversionFlowGraph.cpp\",\"src/common/FilterAudioStream.cpp\",\"src/common/FixedBlockAdapter.cpp\",\"src/common/FixedBlockReader.cpp\",\"src/common/FixedBlockWriter.cpp\",\"src/common/LatencyTuner.cpp\",\"src/common/SourceFloatCaller.cpp\",\"src/common/SourceI16Caller.cpp\",\"src/common/SourceI24Caller.cpp\",\"src/common/SourceI32Caller.cpp\",\"src/common/Utilities.cpp\",\"src/common/QuirksManager.cpp\",\"src/fifo/FifoBuffer.cpp\",\"src/fifo/FifoController.cpp\",\"src/fifo/FifoControllerBase.cpp\",\"src/fifo/FifoControllerIndirect.cpp\",\"src/flowgraph/FlowGraphNode.cpp\",\"src/flowgraph/ChannelCountConverter.cpp\",\"src/flowgraph/ClipToRange.cpp\",\"src/flowgraph/ManyToMultiConverter.cpp\",\"src/flowgraph/MonoToMultiConverter.cpp\",\"src/flowgraph/MultiToMonoConverter.cpp\",\"src/flowgraph/RampLinear.cpp\",\"src/flowgraph/SampleRateConverter.cpp\",\"src/flowgraph/SinkFloat.cpp\",\"src/flowgraph/SinkI16.cpp\",\"src/flowgraph/SinkI24.cpp\",\"src/flowgraph/SinkI32.cpp\",\"src/flowgraph/SourceFloat.cpp\",\"src/flowgraph/SourceI16.cpp\",\"src/flowgraph/SourceI24.cpp\",\"src/flowgraph/SourceI32.cpp\",\"src/flowgraph/resampler/IntegerRatio.cpp\",\"src/flowgraph/resampler/LinearResampler.cpp\",\"src/flowgraph/resampler/MultiChannelResampler.cpp\",\"src/flowgraph/resampler/PolyphaseResampler.cpp\",\"src/flowgraph/resampler/PolyphaseResamplerMono.cpp\",\"src/flowgraph/resampler/PolyphaseResamplerStereo.cpp\",\"src/flowgraph/resampler/SincResampler.cpp\",\"src/flowgraph/resampler/SincResamplerStereo.cpp\",\"src/opensles/AudioInputStreamOpenSLES.cpp\",\"src/opensles/AudioOutputStreamOpenSLES.cpp\",\"src/opensles/AudioStreamBuffered.cpp\",\"src/opensles/AudioStreamOpenSLES.cpp\",\"src/opensles/EngineOpenSLES.cpp\",\"src/opensles/OpenSLESUtilities.cpp\",\"src/opensles/OutputMixerOpenSLES.cpp\",\"src/common/StabilizedCallback.cpp\",\"src/common/Trace.cpp\",\"src/common/Version.cpp\"]}],\"fullName\":\"liboboe.a\",\"linkerLanguage\":\"CXX\",\"name\":\"oboe\",\"sourceDirectory\":\"/Applications/JUCE/modules/juce_audio_devices/native/oboe\",\"sysroot\":\"/Users/robmllze/Library/Android/sdk/ndk/21.4.7075529/toolchains/llvm/prebuilt/darwin-x86_64/sysroot\",\"type\":\"STATIC_LIBRARY\"}]}]}],\"cookie\":\"\",\"inReplyTo\":\"codemodel\",\"type\":\"reply\"}\n",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1427334258
+  },
+  {
+    "level_": 0,
+    "message_": "done executing cmake",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 1228939024
+  },
+  {
+    "level_": 0,
+    "message_": "write command file /Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/.cxx/Debug/6s4o5t1a/armeabi-v7a/metadata_generation_command.txt",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": 145990036
+  },
+  {
+    "level_": 0,
+    "message_": "JSON generation completed without problems",
+    "file_": "/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt",
+    "tag_": "debug_Debug|armeabi-v7a",
+    "diagnosticCode_": 0,
+    "memoizedIsInitialized": 1,
+    "unknownFields": {
+      "fields": {},
+      "fieldsDescending": {}
+    },
+    "memoizedSize": -1,
+    "memoizedHashCode": -1127955188
+  }
+]

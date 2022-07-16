@@ -1,0 +1,4 @@
+com/rmsl/juce/Java.java
+ com.rmsl.juce.Java
+com/yourcompany/juce_jni/BuildConfig.java
+ com.yourcompany.juce_jni.BuildConfig

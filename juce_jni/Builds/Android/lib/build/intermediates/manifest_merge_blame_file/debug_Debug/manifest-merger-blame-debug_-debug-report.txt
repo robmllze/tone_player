@@ -1,0 +1,41 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.yourcompany.juce_jni"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml
+10
+11    <uses-permission
+11-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:3-105
+12        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+12-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:20-76
+13        android:maxSdkVersion="28" />
+13-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:5:77-103
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:6:3-77
+14-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:6:20-75
+15    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+15-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:7:3-78
+15-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:7:20-76
+16    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+16-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:8:3-76
+16-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:8:20-74
+17    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+17-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:9:3-71
+17-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:9:20-69
+18    <uses-permission android:name="android.permission.BLUETOOTH" />
+18-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:10:3-65
+18-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:10:20-63
+19    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE" />
+19-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:11:3-83
+19-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:11:20-81
+20    <uses-permission android:name="android.permission.INTERNET" />
+20-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:12:3-64
+20-->/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/src/main/AndroidManifest.xml:12:20-62
+21
+22</manifest>

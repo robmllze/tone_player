@@ -1,0 +1,2 @@
+/Applications/JUCE/modules/juce_audio_devices/native/oboe/CMakeLists.txt
+/Users/robmllze/Desktop/tone_player 2/juce_jni/Builds/Android/lib/CMakeLists.txt

@@ -7,7 +7,7 @@ dependencies:
   flutter:
     sdk: flutter
   tone_player:
-    path: ../
+    path: ../tone_player
   cupertino_icons: ^1.0.2
   shared_preferences: ^2.0.15
 dev_dependencies:

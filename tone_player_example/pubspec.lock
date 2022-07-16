@@ -283,7 +283,7 @@ packages:
   tone_player:
     dependency: "direct main"
     description:
-      path: ".."
+      path: "../tone_player"
       relative: true
     source: path
     version: "0.0.1"
